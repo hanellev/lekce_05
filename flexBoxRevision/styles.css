@@ -1,0 +1,26 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+*, :after, :before { box-sizing: border-box; }
+
+body {
+	font-family: sans-serif;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item--1 { background-color: brown; }
+.item--2 { background-color: cadetblue; }
+.item--3 { background-color: chocolate; }
+.item--4 { background-color: crimson; }
+.item--5 { background-color: darkgoldenrod; }
+.item--6 { background-color: darkgreen; }
+.item--7 { background-color: purple; }
+.item--8 { background-color: orangered; }
+.item--9 { background-color: teal; }
